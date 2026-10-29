@@ -1,0 +1,10 @@
+# Python generated files
+__pycache__/
+*.pyc
+
+# PyCharm settings
+.idea/
+
+# Virtual environments
+.venv/
+venv/
