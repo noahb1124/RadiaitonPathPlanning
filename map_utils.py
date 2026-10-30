@@ -3,7 +3,7 @@
 # 1. Open the project in PyCharm
 # 2. Open the terminal
 # 3. Run "python -m pip install Pillow" in the terminal
-# 4 Boom, you're done that was really easy
+# 4. Boom, you're done that was really easy
 
 import csv
 import json

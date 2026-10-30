@@ -3,9 +3,9 @@
 
 SETUP:
   1. Put this file next to map_utils.py and the data/ folder.
-  2. Install Pillow once: python -m pip install Pillow
+  2. Install Pillow: python -m pip install Pillow
   3. Rename this file (for example, astar.py or genetic.py).
-  4. Implement find_route() below. Do not change the shared scoring rules.
+  4. Implement algorithm in find_route(). Do not change the shared scoring rules.
   5. Run your algorithm file in PyCharm.
 """
 
@@ -28,8 +28,7 @@ NUMBER_OF_GOALS = 3
 
 
 def find_route(grid, start, goals):
-    """YOUR ALGORITHM GOES HERE.
-
+    """
     Parameters:
         grid: 2D list. -1 = obstacle; positive number = radiation cost.
         start: (row, col) tuple.
